@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>CouBooks</title>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+
+<div class="navi-container">
+    <div class="title-container" >
+        <h1 class="title" style="text-align: left" >COUBOOKS</h1>
+        <p class="title">  A WEBTECH DEMO SITE</p>
+    </div>
+    <div class="link-container"  >
+        <a style="color: white "  href="home.html">HOME</a>
+        <a style="color: white "href="courses.html">COURSES</a>
+        <a style="color: white "href="reservation.html">RESERVATION</a>
+        <a style="color: white "href="about.html">ABOUT</a>
+    </div>
+</div>
+
+<div class="main-container">
+    <div class="step1">
+        <h2>STEP 1: WHO ARE YOU</h2>
+        <p>Please provide some info about you. so we can search for the books you need...</p>
+        <form>
+            <p>Fase:
+            <select style="display: inline">
+                <option value="Bachelor">Bachelor</option>
+             <option value="Master">Master</option>
+             <option value="PhD">PhD</option>
+            </select>
+            </p>
+            <label for="Email">Email:</label>
+            <input type="text" id="Email" name="Email"><br><br>
+            <input type="submit" value="Next...">
+        </form>
+    </div>
+
+    <div class="step2">
+        <h2>STEP 2:WHAT BOOKS DO YOU NEED?</h2>
+        <p>Select the books you wish to order...</p>
+
+        <form>
+        <input type="checkbox" id="c1" name="c1" value="Computer networking: a top down approach">
+            <label for="c1">Computer networking: a top down approach</label><br>
+        <input type="checkbox" id="c2" name="c2"value="Silberschatz's Operating System Concepts">
+            <label for="c2">Silberschatz's Operating System Concepts</label><br>
+            <br>
+            <input type="submit" value="Next...">
+        </form>
+    </div>
+
+    <div class="final">
+        <h2>YOU HAVE ORDERED...</h2>
+        <p>Below you find an overview of the books you have reserved. Once you confirm your reservation you can pick them up at our KD and pay at the desk</p>
+        <input type="submit" value="Confirm Reservation">
+    </div>
+</div>
+
+<div class="foot-container">
+    <p>Copyright @ 2022 Webtech. KUL All Rights Reserved.</p>
+    <p><a style="color: black" href="https://www.w3schools.com">Privacy Policy</a>
+        |<a style="color: black " href="https://www.w3schools.com">Term of Use</a>
+    </p>
+</div>
+
+</body>
+</html>

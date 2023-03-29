@@ -1,0 +1,68 @@
+h1.title{
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+p.title{
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.navi-container{
+    color: white;
+    justify-content: space-around;
+    display: flex;
+    background: #147fa1;
+    border-radius: 10px;
+    padding: 10px;
+}
+div.title-container{
+    font-family: fantasy;
+}
+.link-container{
+
+    font-family: "Lucida Console";
+    display: flex;
+    align-self: center;
+    flex-wrap: nowrap ;
+}
+div.link-container a{
+    text-decoration: none;
+}
+
+.main-container{
+    font-family: Arial ;
+    margin-block-start: 10px;
+    display: flex;
+    border-radius: 10px;
+    padding: 40px;
+    background: white;
+}
+div.welcome-container{
+    padding: 20px;
+}
+
+
+div.info-container a,p{
+    padding-left: 20px;
+}
+
+
+.foot-container{
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    margin-block-start: 10px;
+
+    background: #147fa1;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+body{
+    background: #D5E7F3;
+}
+
+a {
+    padding: 5px;
+
+}
+
